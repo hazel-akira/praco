@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .events-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 20px auto;
+  }
+  
+  .events-section {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .events-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event {
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .event:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .upcoming-events-section {
+    background-color: #dff0d8; /* Light green for upcoming events */
+  }
+  
+  .previous-events-section {
+    background-color: #f2dede; /* Light red for previous events */
+  }
+  
+  /* Additional Styling for Headers */
+  h3 {
+    text-align: center;
+    color: #333;
+  }
+  
